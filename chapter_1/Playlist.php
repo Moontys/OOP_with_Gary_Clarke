@@ -2,7 +2,7 @@
 
 class Playlist
 {
-    public $listForSongs = []; // Class attribute
+    public array $listForSongs = []; // Class attribute
 
         // Type class ("Song", "Playlist")
     public function addSong(Song $song): void   // Pseudo Type
